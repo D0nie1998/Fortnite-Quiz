@@ -11,3 +11,57 @@
 }
 
 
+
+h1 {
+   font-size: 5.5rem;
+   font-style: Irish Grover;
+   color: antiquewhite;
+   margin-bottom: 4rem;
+}
+
+h2 {
+   margin-bottom: 1rem;
+   color: #1B4332;
+   text-align: center;
+}
+
+.container {
+   display: flex;
+   width:100vw;
+   justify-content: center;
+   align-items: center;
+   max-width: 80rem;
+   padding: 2rem;
+   margin: 0 auto;
+   height: 100vh ;
+}
+
+.flex-column {
+   display: flex;
+   flex-direction: column;
+}
+
+.button {
+  
+   text-decoration: none;
+   color: black;
+   font-weight: 600;
+   border: 0.2rem solid white;
+   padding: 0.6rem;
+   background-color: blue;
+   width: 12rem;
+   margin: auto auto 1rem;
+}
+
+.button:hover {
+   cursor: pointer;
+   box-shadow: 0 0.4rem 1.4rem 0 rgba(64, 145, 108, 0.5);
+   transform: translateY(-0.1rem);
+   transition: transform 150ms;
+}
+
+.button[disabled]:hover {
+   cursor: not-allowed;
+   box-shadow: none;
+   transform: none;
+}
