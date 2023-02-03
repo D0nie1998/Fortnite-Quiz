@@ -6,8 +6,9 @@
   
   
     body {
-    background-image: url("/assets/images/background.jpg");
-    background-size: cover
+    background-image: url("/assets/images/background.jpg") ;
+    background-size: cover contain;
+    overflow: none;
 }
 
 
@@ -21,8 +22,10 @@ h1 {
 
 h2 {
    margin-bottom: 1rem;
-   color: #1B4332;
+   color: black;
    text-align: center;
+   font-weight: 300;
+   font-size: 30px;
 }
 
 .container {
@@ -67,31 +70,47 @@ h2 {
 }
 
 /* Games page */
-.answer-option {
+.answer-choice {
    display: flex;
-   margin-bottom: 0.8rem;
+   margin-bottom: 0.7rem;
+   background-color: #ffffff;
    width: 100%;
-   font-size: 3rem
+   border-radius: 4px;
+   min-width: 40rem;
+
+   
+  
+  
 }
 
-.answer-option:hoover {
-   cursor: pointer;
+.answer-choice:hover {
    box-shadow: 0 0.4rem 1.4rem 0;
-   transform: scale(1.17);
-   transform: transform 150ms;
+   cursor: pointer;
+   transform: translateY(-0.1rem);
+   transition: transform 150ms;
 }
 
 .choice-prefix {
-   padding : 2rem 2.3rem;
-   color: white;
+   padding: 1.5rem 2rem;
+   background-color: lightskyblue;
+   color: #ffffff;
 }
 
 .choice-text {
-   padding: 2rem;
+   padding: 1.5rem;
    width: 100%;
+
 }
 
-/* hud and progress bar */
+.correct {
+   background-color: #28a745;
+}
+
+.incorrect {
+   background-color: #dc3545;
+}
+
+/* Question number and Score area */
 
 #hud {
    display: flex;
@@ -99,24 +118,38 @@ h2 {
 }
 
 .hud-prefix {
+   text-align: center;
    font-size: 2rem;
-   text-align: center;}
+   padding-top: 3.5rem;
+   
+  
+}
 
 .hud-main-text {
-   text-align: center
+   text-align: center;
+ 
 }
 
 #progressBar {
-   width: 18rem;
-   height: 3rem;
-   border: 0.2 green;
-   border-radius: 50px;
+   height: 2rem;
+   border: 0.3rem solid white;
+   margin-left: 0.5rem;
+   border-radius: 15px;
+   width: 10rem;
    margin-top: 2rem;
-   overflow: hidden;
+
 }
 
-#progressBarfull {
-   height: 2rem;
-   background-color: aqua;
+#progressBarFull {
+   height: 100%;
+   background-color: #2D6A4F;
    width: 0%;
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+.answer-choice {min-width: 10rem;}
+} 
+
