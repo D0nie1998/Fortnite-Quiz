@@ -101,3 +101,22 @@ h2 {
 .hud-prefix {
    font-size: 2rem;
    text-align: center;}
+
+.hud-main-text {
+   text-align: center
+}
+
+#progressBar {
+   width: 18rem;
+   height: 3rem;
+   border: 0.2 green;
+   border-radius: 50px;
+   margin-top: 2rem;
+   overflow: hidden;
+}
+
+#progressBarfull {
+   height: 2rem;
+   background-color: aqua;
+   width: 0%;
+}
