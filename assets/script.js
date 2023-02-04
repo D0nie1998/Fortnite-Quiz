@@ -97,3 +97,41 @@ let questions = [
         answer: '2'
     },
 ];
+
+/*    Start Game    */
+
+
+function startGame() {
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    getNewQuestion();
+}
+
+/*  To recieve random question   */
+
+
+function getNewQuestion() {
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+
+    if (availableQuestions.length === 0 || questionCounter >= maxQuestions){
+        localStorage.setItem('mostRecentScore', score);
+        return window.location.assign("end.html");
+    }
+
+    questionCounter++;
+
+    progressText.innerText = `Question ${questionCounter}/${maxQuestions}`;
+    progressBarFull.style.width = `${(questionCounter / maxQuestions) * 100}%`;
+    
+    currentQuestion = availableQuestions[questionIndex];
+    question.innerText = currentQuestion.question;
+
+    choices.forEach( choice => {
+        const number = choice.dataset.number;
+        choice.innerText = currentQuestion["choice" + number];
+    });
+
+    availableQuestions.splice(questionIndex, 1);
+    acceptingAnswers = true;
+}
