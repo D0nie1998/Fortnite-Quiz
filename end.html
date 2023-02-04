@@ -8,6 +8,20 @@
 <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Nerko+One&family=Roboto&display=swap" rel="stylesheet">
 
 <body>
+    <div class="container">
+        <div id="end">
+            <div id="finalScore" class="align-center score-style"></div>
+            <form class="end-form">
+                <h2 id="end-text">Enter name below to save your score!</h2>
+                <!-- For entering your username and score-->
+                <input type="text" name="username" id="username" placeholder="username">
+                <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)">Save</button>
+            </div>
+            <!--Links to game page and home page-->
+            <a class="btn" href="game.html" aria-label="Play again">Play Again</a>
+            <a class="btn" href="index.html" aria-label="Home page"> Home</a>
+        </div>
+    </div>
 </body>
 
 
