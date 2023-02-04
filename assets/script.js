@@ -136,3 +136,36 @@ function getNewQuestion() {
     acceptingAnswers = true;
 }
 
+/*          */
+
+choices.forEach(choice => {
+    choice.addEventListener('click', (event) => {
+        if(!acceptingAnswers) return;
+
+        acceptingAnswers = false;
+        const selectedChoice = event.target;
+        const selectedAnswer = selectedChoice.dataset.number;
+
+        const classToApply = selectedAnswer === currentQuestion.answer ? 'correct' : 'incorrect';
+
+        if(classToApply === 'correct') {
+            incrementScore(correctBonus);
+        }
+
+        selectedChoice.parentElement.classList.add(classToApply);
+
+        setTimeout(() => {
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
+        }, 1000);
+    });
+});
+
+
+/* incrementing the score */
+function incrementScore(num) {
+    score += num;
+    scoreText.innerText = score;
+}
+
+startGame();

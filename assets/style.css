@@ -115,18 +115,20 @@ h2 {
 #hud {
    display: flex;
    justify-content: space-between;
+   
 }
 
 .hud-prefix {
    text-align: center;
    font-size: 2rem;
-   padding-top: 3.5rem;
+   
    
   
 }
 
 .hud-main-text {
    text-align: center;
+   
  
 }
 
@@ -134,7 +136,7 @@ h2 {
    height: 2rem;
    border: 0.3rem solid white;
    margin-left: 0.5rem;
-   border-radius: 15px;
+
    width: 10rem;
    margin-top: 2rem;
 
@@ -142,7 +144,7 @@ h2 {
 
 #progressBarFull {
    height: 100%;
-   background-color: #2D6A4F;
+   background-color: gold;
    width: 0%;
 }
 
