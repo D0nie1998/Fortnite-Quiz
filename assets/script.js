@@ -135,3 +135,4 @@ function getNewQuestion() {
     availableQuestions.splice(questionIndex, 1);
     acceptingAnswers = true;
 }
+
