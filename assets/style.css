@@ -54,6 +54,7 @@ h2 {
    background-color:yellow ;
    width: 13rem;
    margin: auto auto 1rem;
+   text-align: center;
 }
 
 .button:hover {
