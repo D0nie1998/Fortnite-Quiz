@@ -11,6 +11,10 @@
     overflow: none;
 }
 
+.image {
+   height: 100px ;
+   align-self: center
+}
 
 
 h1 {
@@ -171,8 +175,9 @@ h2 {
 .score-style {
    font-size: 2.5rem;
    margin-bottom: 2rem;
-   color: #1B4332;
+   color: antiquewhite;
    font-weight: 600;
+   margin-left: 6rem;
 }
 
 .submit-highscore {
