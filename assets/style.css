@@ -7,9 +7,10 @@
   
     body {
     background-image: url("/assets/images/background.jpg") ;
-    background-size: cover contain;
+    background-size: contain cover;
     background-position: center;
-    overflow: none;
+    overflow: hidden;
+    background-repeat: no-repeat;
 }
 
 .image {
@@ -216,4 +217,10 @@ input::placeholder {
 
 
 } 
+
+@media screen and (max-width: 653px) {
+   .image {height: 75px}
+}
+   
+
 
