@@ -8,6 +8,7 @@
     body {
     background-image: url("/assets/images/background.jpg") ;
     background-size: cover contain;
+    background-position: center;
     overflow: none;
 }
 
@@ -208,5 +209,7 @@ input::placeholder {
 
 @media screen and (max-width: 768px) {
 .answer-choice {min-width: 10rem;}
+background-: center;
+
 } 
 
