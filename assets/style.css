@@ -28,7 +28,7 @@ h1 {
 
 h2 {
    margin-bottom: 1rem;
-   color: black;
+   color: antiquewhite;
    text-align: center;
    font-weight: 300;
    font-size: 30px;
@@ -209,7 +209,7 @@ input::placeholder {
 
 @media screen and (max-width: 768px) {
 .answer-choice {min-width: 10rem;}
-background-: center;
+
 
 } 
 
