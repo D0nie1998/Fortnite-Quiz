@@ -33,11 +33,11 @@ let questions = [
         answer: '1'
     },
     {
-        question: "How many shield points do a small shield potion give you?",
-        choice1: "30",
-        choice2: "20",
-        choice3: "25",
-        choice4: "15",
+        question: "What is the price of Fortnite Battle Royale? ",
+        choice1: "£30",
+        choice2: "£20",
+        choice3: "Free",
+        choice4: "£50",
         answer: '3'
     },
     {
@@ -65,12 +65,12 @@ let questions = [
         answer: '2'
     },
     {
-        question: " Which of these artists has not played a concert in Fortnite??",
-        choice1: "Arianna Grande",
-        choice2: "DJ khaled",
-        choice3: "Marshmello",
-        choice4: "Travis Scott",
-        answer: '1'
+        question: "What is the first weapon you recieve? ",
+        choice1: "Shotgun",
+        choice2: "Pickaxe",
+        choice3: "Pistol",
+        choice4: "Assault Rifle",
+        answer: '2'
     },
     {
         question: "Who was the first fortnite streamer to get a skin?",
@@ -136,7 +136,7 @@ function getNewQuestion() {
     acceptingAnswers = true;
 }
 
-/*          */
+/* correct and incorrect          */
 
 choices.forEach(choice => {
     choice.addEventListener('click', (event) => {

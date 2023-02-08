@@ -1,6 +1,7 @@
 const highScores = JSON.parse(localStorage.getItem('highScores')) || undefined;
 const highScoresList = document.getElementById('highScoresList');
 
+/* high scores */
 
 function mapScores() {
     if (!highScores) {

@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-      <meta charset="UTF-8" />
-      <meta name="description" content="Interactive game about fortnite">
-      <meta name="viewport" content="width=device-width, inital-scale=1.0" />
-      <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-      <link rel="stylesheet" href="assets/style.css" />
-      <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-       <title>Fortnite Quiz</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Interactive game about fortnite">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>Fortnite Quiz</title>
 </head>
 
 <body>
-        <div class="container">
-            <div id="end">
-                <div id="finalScore" class=" flex-center score-style"></div>
-                
-                <div class="submit-highscore">
-                    <h2 id="end-text">Thanks for playing!</h2>
-                    <input type="text" name="username" id="username" placeholder="username">
-                    <button type="submit" class="button" id="saveScoreBtn"  onClick="saveHighScore(event)">Save</button>
-               
-               
-                <a class="button" href="game.html" aria-label="Play game again">Play Again</a>
-                <a class="button" href="index.html" aria-label="Go to home page">Go Home</a>
-            </div>
+    <main class="container">
+        <div id="end">
+            <!--Final score-->
+            <div id="finalScore" class=" flex-center score-style">
         </div>
-        <script src="/assets/js/end.js"></script>
+        <!--For displaying final score-->
+        <div class="submit-highscore">
+            <h2 id="end-text">Thanks for playing!</h2>
+            <input type="text" name="username" id="username" placeholder="username">
+            <!--saving high score-->
+            <button type="submit" class="button" id="saveScoreBtn" onClick="saveHighScore(event)">Save</button>
+
+            <!--Buttons for playing again and going home-->
+            <a class="button" href="game.html" aria-label="Play game again">Play Again</a>
+            <a class="button" href="index.html" aria-label="Go to home page">Go Home</a>
+        </div>
+        </div>
+        <script src="assets/js/end.js"></script>
+
 </body>
-
-
-
 
 </html>

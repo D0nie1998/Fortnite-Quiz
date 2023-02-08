@@ -6,8 +6,8 @@
   
   
     body {
-    background-image: url("assets/images/background.jpg") ;
-    background-size: contain cover;
+    background-image: url("/assets/images/background.jpg") ;
+    background-size: cover;
     background-position: center;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -129,10 +129,8 @@ h2 {
 .hud-prefix {
    text-align: center;
    font-size: 2rem;
-   
-   
-  
-}
+   color: antiquewhite;
+   }
 
 .hud-main-text {
    text-align: center;

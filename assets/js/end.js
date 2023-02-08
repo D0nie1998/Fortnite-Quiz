@@ -7,13 +7,12 @@ const maxHighScore = 5;
 
 
 
+/* saving the score */
 finalScore.innerText = mostRecentScore;
 
-username.addEventListener('keyup', () => {
+username.addEventListener('keyup', ()  {
     saveScoreBtn.disabled = !username.value;
-});
-
-/* saving the score */
+});;
 
 function saveHighScore(event) {
     event.preventDefault();
@@ -31,9 +30,4 @@ function saveHighScore(event) {
     window.location.assign('index.html');
 }
 
-/* whitespace validation */
-
-username.addEventListener("keyup", () {
-    console.log(username.value);
-    saveScoreBtn.disabled = !username.value ;
-} ) ;
+    
