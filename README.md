@@ -49,24 +49,33 @@ This is an interactive quiz game where players are tested on their knowledge on 
 -  Github  - Used to continuously develop and deploy the incremental versions of the application.
 - Balsamiq  - Software that i used to create the wireframes i used for this project.
 - Google Fonts -  Google Fonts is a collection of free, open-source font families that can be used in web design and typography.
+- Canva - Canva is a graphic design platform that allows users to create various types of visual content, 
+
+</br>
+</br>
 
 # Testing
 
 ## Responsiveness testing
 The issue with the website was that it was not displaying correctly when the screen width was set to 1368px. The page would not cover the entire screen, resulting in a partial view of the content and a suboptimal user experience. This problem was due to the website not being designed with responsive design in mind, causing the layout to break at certain screen widths.
 
-[responsiveissue](/assets/images/responsiveissue.png)
+![responsiveissue](/assets/images/responsiveissue.png)
+
+</br>
+</br>
 
 After investigating the issue, I soon discovered that the problem was with the CSS background-size command. Instead of using only cover, I had used both contain and cover together. Upon removing contain and using only cover, the issue was promptly resolved. The page now fully covers the screen at a width of 1368px, providing a seamless and fully functional user experience.
 
-[responsivesolution](/assets/images/responsesolution.png)
+![responsivesolution](/assets/images/responsesolution.png)
+
 
 ## Multiple-browser testing
 To ensure the best possible user experience, I tested the website on multiple browsers including Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari. I was pleased to find that the website displayed correctly on all of these browsers and there were no issues with the responsive design. This rigorous testing process ensured that the website could be accessed and used by a wide range of users, regardless of their preferred browser.
 
-[browsercheck](/assets/images/browsercheck.png)
+![browsercheck](/assets/images/browsercheck.png)
 
-
+</br>
+</br>
 
 # Deployment
 I deployed the site on GitHub pages. The following steps were used to deploy:
@@ -81,3 +90,6 @@ Steps to clone this project from GitHub:
 2. Select download Zip from the clone menu.
 3. Once zip file has been downloaded, unzip the file.
 4. Save the file and run it locally
+
+</br>
+</br>
