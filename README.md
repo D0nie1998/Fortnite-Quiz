@@ -17,9 +17,8 @@
 <br />
 <br />
 
-# Introduction & Aims
-This is an interactive quiz game where players are tested on their knowledge on the game fortnite through various questions. The game consists of 10 questions. If a player answers a question correctly, they will get 10 points. After completing the game, the user can save their high score and later look back on the top high scores for the game. 
-
+# Introduction
+Get ready to put your Fortnite knowledge to the test! This engaging quiz game will challenge players with 10 questions that cover a range of topics related to the popular game. Each correct answer will earn players 10 points and with each correct response, you'll climb the leaderboard of high scores. At the end of the quiz, you can save your score and boast about your ranking among other players who have taken on the challenge. Are you ready to see just how much you know about Fortnite?
 </br>
 </br>
 
@@ -41,6 +40,22 @@ This is an interactive quiz game where players are tested on their knowledge on 
 - Be able to view my high score 
 <br />
 <br />
+
+# Main features
+
+## Home page
+When designing the home page for the quiz game, I wanted to create a user-friendly and accessible experience for players. I chose to keep the design simple and straightforward with two clear buttons that players can use to start the quiz or view the high scores. I also selected a visually appealing background that creates a welcoming atmosphere for players. The easy-to-use design and attractive background will ensure that players feel comfortable navigating the site and playing the quiz game. I believe that the simplicity and accessibility of the home page will play a critical role in creating a positive and enjoyable user experience for players.
+
+![desktophome](/assets/images/homepage.png)
+
+In addition to the easy-to-use design on desktop, I also made sure that the quiz game was accessible and user-friendly on mobile devices. I tested the game on various mobile devices to ensure that the buttons and background were properly sized and scaled, and that the text was legible. The results showed that the quiz game was easily accessible on mobile devices and provided a seamless user experience for players on-the-go
+
+![phonehome](/assets/images/phonehomepage.png)
+
+## Future Development
+I believe that having more questions in an online quiz can lead to a deeper understanding of a user's knowledge. When I'm designing a quiz, I always try to strike a balance between the number of questions and their quality. The questions should be relevant, engaging, and thought-provoking, without taking too long to answer.
+
+After completing the initial version of the quiz game, I am now focused on enhancing the user experience. One aspect I am particularly interested in improving is the animation when a player answers a question. I believe that adding some visually appealing animations will not only make the game more enjoyable, but it will also provide feedback to the player about their answer. This can make the experience more engaging and interactive. I plan to research and experiment with different animation styles and techniques to find the best fit for the quiz game. I am excited to see the final result and know that it will take the game to the next level.
 
 # Technologies 
 - HTML5 - Hypertext markup language used to give the website its overall structure and semantic value.
@@ -88,6 +103,9 @@ After completing my HTML code for the website, I decided to run a validation tes
 After successfully fixing the HTML errors, I moved on to validate my CSS code. I visited the W3C CSS Validator and submitted my stylesheet for testing. To my delight, the results showed that there were no errors in the CSS code. This meant that my stylesheet was written correctly and adhered to best practices, which would ensure that the website would look and function as intended. I was relieved and confident that my website would provide an optimal user experience, both in terms of content and aesthetics.
 
 ![csstest](/assets/images/csstest.png)
+
+### JavaScript
+To ensure the highest quality of my JavaScript code, I decided to use JSHint, a static code analysis tool that checks for potential errors, inconsistencies, and anti-patterns in my code. I ran JSHint on my JavaScript file and was pleased to see that there were no problems with my code. This meant that my JavaScript was written correctly and adhered to best practices, which would ensure that the website would function as intended. I was confident that my code would provide a seamless user experience and allow users to interact with the website without any issues.
 
 
 # Deployment
