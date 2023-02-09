@@ -151,6 +151,18 @@ After successfully fixing the HTML errors, I moved on to validate my CSS code. I
 ### JavaScript
 To ensure the highest quality of my JavaScript code, I decided to use JSHint, a static code analysis tool that checks for potential errors, inconsistencies, and anti-patterns in my code. I ran JSHint on my JavaScript file and was pleased to see that there were no problems with my code. This meant that my JavaScript was written correctly and adhered to best practices, which would ensure that the website would function as intended. I was confident that my code would provide a seamless user experience and allow users to interact with the website without any issues.
 
+## Error
+I encountered an error while trying to use an image from my local folder as the background for my website in Gitpod. Unfortunately, Gitpod didnt support this local files for background images. To overcome this issue, I went back to the original website where I had found the image and used the direct link to it in my CSS. This allowed me to set the image as the background for my website successfully. In my CSS code, I specified the image URL, set the "background-size" to "cover" so that the image covers the entire element, and set the "background-repeat" to "no-repeat" to ensure that the image wouldn't repeat.
+
+## Bugs
+I encountered an error in my JavaScript code while working on the username and score validation for my website. The whitespace validator was not functioning consistently, which was causing problems with allowing scores to be entered. After some debugging, I discovered that the issue was with the way the whitespace validator was implemented, and it was allowing scores to be entered even when the username was empty or consisted solely of whitespaces. I was able to fix the issue by making adjustments to the validator so that it would not allow scores to be entered if the username was empty or consisted solely of whitespaces. The solution ensured that the validation was consistent and prevented any errors with entering scores.
+
+
+## Lighthouse
+I used the Chrome extension Lighthouse to test the performance, accessibility, and best practices of my web page. The results were outstanding as Lighthouse gave my page a 100% pass rate in all departments. This showed that the page was well optimized for speed, user experience, and accessibility, which are all important factors for creating a successful website. Lighthouse provided a comprehensive report of the testing, allowing me to identify any potential issues and make improvements where necessary. I was very satisfied with the results and confident that my website was ready to provide a positive user experience to all visitors.
+
+![lighthouse](/assets/images/lighthouse.png)
+
 </br>
 </br>
 
@@ -173,3 +185,29 @@ Steps to clone this project from GitHub:
 </br>
 
 # References
+
+</br>
+</br>
+
+## Images
+https://wallpaperaccess.com/full/113027.jpg for the background image
+https://commons.wikimedia.org/wiki/File:Fortnite.png for the logo
+I used canva to create the cross-platform validation picture
+
+## Quiz
+I ued a YouTube page to s learn and it was extremely helpful and made a significant impact on my growth and understanding
+https://www.youtube.com/watch?v=LQGTb112N_c
+
+## Mentor
+I want to extend a heartfelt thank you to Jubril for all the support and help he provided me throughout the process. Jubril's guidance and encouragement was invaluable, and I am truly grateful for all the time and energy he dedicated to helping me. The confidence he instilled in me allowed me to tackle any challenges that came my way and made the experience all the more enjoyable. I am so appreciative of everything Jubril did for me and will always remember the positive impact he had on my journey. Thank you, Jubril, for being an amazing mentor.
+
+## Code Institute
+I just wanted to express my appreciation for the lessons I learned from Code Institute. Your program provided me with a comprehensive education in coding and technology, and I am grateful for the knowledge and skills I acquired.
+
+## Questions
+I used these websites to find some challenging questions on Fortnite!
+https://www.ultimatequizquestions.com/fortnite-quiz/
+https://bigquizthing.com/trivia-questions-ans/fortnite-30-trivia-questions-and-answers/
+https://ponly.com/fortnite-trivia-questions/
+https://www.beano.com/categories/fortnite-quizzes
+
