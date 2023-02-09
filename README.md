@@ -52,7 +52,7 @@ This is an interactive quiz game where players are tested on their knowledge on 
 
 # Testing
 
-## Responsivenesss
+## Responsiveness testing
 The issue with the website was that it was not displaying correctly when the screen width was set to 1368px. The page would not cover the entire screen, resulting in a partial view of the content and a suboptimal user experience. This problem was due to the website not being designed with responsive design in mind, causing the layout to break at certain screen widths.
 
 [responsiveissue](/assets/images/responsiveissue.png)
@@ -60,6 +60,12 @@ The issue with the website was that it was not displaying correctly when the scr
 After investigating the issue, I soon discovered that the problem was with the CSS background-size command. Instead of using only cover, I had used both contain and cover together. Upon removing contain and using only cover, the issue was promptly resolved. The page now fully covers the screen at a width of 1368px, providing a seamless and fully functional user experience.
 
 [responsivesolution](/assets/images/responsesolution.png)
+
+## Multiple-browser testing
+To ensure the best possible user experience, I tested the website on multiple browsers including Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari. I was pleased to find that the website displayed correctly on all of these browsers and there were no issues with the responsive design. This rigorous testing process ensured that the website could be accessed and used by a wide range of users, regardless of their preferred browser.
+
+[browsercheck](/assets/images/browsercheck.png)
+
 
 
 # Deployment
