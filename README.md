@@ -14,7 +14,7 @@
 4. [Technologies](#technologies)
 5. [Testing](#testing)
 6. [Deployment](#deployment)
-7. [References](#references)
+7. [Credits](#credits)
 
 <br />
 <br />
@@ -139,9 +139,9 @@ To ensure the best possible user experience, I tested the website on multiple br
 ## Validation
 
 ### HTML
-After completing my HTML code for the website, I decided to run a validation test to ensure that the code was written correctly and adhered to best practices. I visited the W3C HTML Validator and submitted my code for testing. The results showed that I had one error in the index part of the code, where I had forgotten to add the alt attribute to the img command. This was an easy fix and I quickly added the missing alt text. However, the validator did not show any issues with the games, highscore, and end parts of the code, indicating that these sections of the HTML were written correctly. It made me very happy to see that the number of errors was minimal and I was confident that my code would function well and provide an optimal user experience.
+After completing my HTML code for the website, I decided to run a validation test to ensure that the code was written correctly and adhered to best practices. I visited the W3C HTML Validator and submitted my code for testing. The results showed that I had no errors which indicated that these sections of the HTML were written correctly. It made me very happy to see that the number of errors was minimal and I was confident that my code would function well and provide an optimal user experience.
 
-![htmltest](/assets/images/htmlerror.png)
+
 
 ### CSS
 After successfully fixing the HTML errors, I moved on to validate my CSS code. I visited the W3C CSS Validator and submitted my stylesheet for testing. To my delight, the results showed that there were no errors in the CSS code. This meant that my stylesheet was written correctly and adhered to best practices, which would ensure that the website would look and function as intended. I was relieved and confident that my website would provide an optimal user experience, both in terms of content and aesthetics.
@@ -185,25 +185,21 @@ Live link is available here [https://d0nie1998.github.io/Fortnite-Quiz/]
 </br>
 </br>
 
-# References
+# Credits
 
 </br>
 </br>
 
-## Images
+## Content
+
+### Images
 https://wallpaperaccess.com/full/113027.jpg for the background image
 https://commons.wikimedia.org/wiki/File:Fortnite.png for the logo
 I used canva to create the cross-platform validation picture
 
-## Quiz
+### Quiz
 I ued a YouTube page to s learn and it was extremely helpful and made a significant impact on my growth and understanding
 https://www.youtube.com/watch?v=LQGTb112N_c
-
-## Mentor
-I want to extend a heartfelt thank you to Jubril for all the support and help he provided me throughout the process. Jubril's guidance and encouragement was invaluable, and I am truly grateful for all the time and energy he dedicated to helping me. The confidence he instilled in me allowed me to tackle any challenges that came my way and made the experience all the more enjoyable. I am so appreciative of everything Jubril did for me and will always remember the positive impact he had on my journey. Thank you, Jubril, for being an amazing mentor.
-
-## Code Institute
-I just wanted to express my appreciation for the lessons I learned from Code Institute. Your program provided me with a comprehensive education in coding and technology, and I am grateful for the knowledge and skills I acquired.
 
 ## Questions
 I used these websites to find some challenging questions on Fortnite!
@@ -211,4 +207,14 @@ https://www.ultimatequizquestions.com/fortnite-quiz/
 https://bigquizthing.com/trivia-questions-ans/fortnite-30-trivia-questions-and-answers/
 https://ponly.com/fortnite-trivia-questions/
 https://www.beano.com/categories/fortnite-quizzes
+
+### Acknowledgements
+
+## Mentor
+I want to extend a heartfelt thank you to Jubril for all the support and help he provided me throughout the process. Jubril's guidance and encouragement was invaluable, and I am truly grateful for all the time and energy he dedicated to helping me. The confidence he instilled in me allowed me to tackle any challenges that came my way and made the experience all the more enjoyable. I am so appreciative of everything Jubril did for me and will always remember the positive impact he had on my journey. Thank you, Jubril, for being an amazing mentor.
+
+## Code Institute
+I just wanted to express my appreciation for the lessons I learned from Code Institute. Your program provided me with a comprehensive education in coding and technology, and I am grateful for the knowledge and skills I acquired.
+
+
 
