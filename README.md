@@ -3,7 +3,7 @@
 
 ![responsive picture](/assets/images/amiresponsive.png)
 
-You can access the live site here! []
+[You can access the live site here!](https://d0nie1998.github.io/Fortnite-Quiz/)
 <br/>
 <br/>
 
