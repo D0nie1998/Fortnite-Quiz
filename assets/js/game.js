@@ -76,7 +76,7 @@ let questions = [
         question: "Who was the first fortnite streamer to get a skin?",
         choice1: "Nickmercs",
         choice2: "Sypherpk",
-        choice3: "tfue",
+        choice3: "Tfue",
         choice4: "Ninja",
         answer: '4'
     },
