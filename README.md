@@ -48,3 +48,17 @@ This is an interactive quiz game where players are tested on their knowledge on 
 - JavaScript - JavaScript is a high-level, dynamically typed, interpreted programming language used for creating interactive web pages and developing web applications.
 - Git, Github & Gitpod - Used to continuously develop and deploy the incremental versions of the application.
 - Balsamiq  - Software that i used to create the wireframes i used for this project.
+
+# Deployment
+I deployed the site on GitHub pages. The following steps were used to deploy:
+1. In the project repository, navigate to the settings tab.
+2. Select the pages tab from the left hand menu.
+3. Under the source section, in the drop-down menu select the main branch and click save.
+4. Once the page has refreshed a ribbon will display indicating the successful deployment of the site and link to the live page.
+
+## Local Deployment
+Steps to clone this project from GitHub:
+1. In the project repository, navigate to the code button.
+2. Select download Zip from the clone menu.
+3. Once zip file has been downloaded, unzip the file.
+4. Save the file and run it locally
