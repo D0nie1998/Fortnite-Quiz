@@ -157,9 +157,8 @@ h2 {
 
 .highscores {
    font-size: 3rem;
-   margin-bottom: 0.5rem;
-   
-}
+   margin-bottom: 0.5rem
+   }
 
 .highscores:hover {
    transform: scale(1.17);

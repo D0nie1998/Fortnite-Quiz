@@ -43,3 +43,8 @@ This is an interactive quiz game where players are tested on their knowledge on 
 <br />
 
 # Technologies 
+- HTML5 - Hypertext markup language used to give the website its overall structure and semantic value.
+- CSS3 - Cascading Style Sheets used to apply consistent styles across all sections of the application.
+- JavaScript - JavaScript is a high-level, dynamically typed, interpreted programming language used for creating interactive web pages and developing web applications.
+- Git, Github & Gitpod - Used to continuously develop and deploy the incremental versions of the application.
+- Balsamiq  - Software that i used to create the wireframes i used for this project.
