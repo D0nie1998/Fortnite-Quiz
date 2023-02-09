@@ -2,6 +2,8 @@
 
 
 ![responsive picture](/assets/images/amiresponsive.png)
+
+You can access the live site here! []
 <br/>
 <br/>
 
