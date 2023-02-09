@@ -77,6 +77,19 @@ To ensure the best possible user experience, I tested the website on multiple br
 </br>
 </br>
 
+## Validation
+
+### HTML
+After completing my HTML code for the website, I decided to run a validation test to ensure that the code was written correctly and adhered to best practices. I visited the W3C HTML Validator and submitted my code for testing. The results showed that I had one error in the index part of the code, where I had forgotten to add the alt attribute to the img command. This was an easy fix and I quickly added the missing alt text. However, the validator did not show any issues with the games, highscore, and end parts of the code, indicating that these sections of the HTML were written correctly. It made me very happy to see that the number of errors was minimal and I was confident that my code would function well and provide an optimal user experience.
+
+![htmltest](/assets/images/htmlerror.png)
+
+### CSS
+After successfully fixing the HTML errors, I moved on to validate my CSS code. I visited the W3C CSS Validator and submitted my stylesheet for testing. To my delight, the results showed that there were no errors in the CSS code. This meant that my stylesheet was written correctly and adhered to best practices, which would ensure that the website would look and function as intended. I was relieved and confident that my website would provide an optimal user experience, both in terms of content and aesthetics.
+
+![csstest](/assets/images/csstest.png)
+
+
 # Deployment
 I deployed the site on GitHub pages. The following steps were used to deploy:
 1. In the project repository, navigate to the settings tab.
