@@ -52,10 +52,17 @@ In addition to the easy-to-use design on desktop, I also made sure that the quiz
 
 ![phonehome](/assets/images/phonehomepage.png)
 
+## Buttons
+
+
+
 ## Future Development
 I believe that having more questions in an online quiz can lead to a deeper understanding of a user's knowledge. When I'm designing a quiz, I always try to strike a balance between the number of questions and their quality. The questions should be relevant, engaging, and thought-provoking, without taking too long to answer.
 
 After completing the initial version of the quiz game, I am now focused on enhancing the user experience. One aspect I am particularly interested in improving is the animation when a player answers a question. I believe that adding some visually appealing animations will not only make the game more enjoyable, but it will also provide feedback to the player about their answer. This can make the experience more engaging and interactive. I plan to research and experiment with different animation styles and techniques to find the best fit for the quiz game. I am excited to see the final result and know that it will take the game to the next level.
+
+</br>
+</br>
 
 # Technologies 
 - HTML5 - Hypertext markup language used to give the website its overall structure and semantic value.
@@ -83,6 +90,9 @@ After investigating the issue, I soon discovered that the problem was with the C
 
 ![responsivesolution](/assets/images/responsesolution.png)
 
+</br>
+</br>
+
 
 ## Multiple-browser testing
 To ensure the best possible user experience, I tested the website on multiple browsers including Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari. I was pleased to find that the website displayed correctly on all of these browsers and there were no issues with the responsive design. This rigorous testing process ensured that the website could be accessed and used by a wide range of users, regardless of their preferred browser.
@@ -106,6 +116,9 @@ After successfully fixing the HTML errors, I moved on to validate my CSS code. I
 
 ### JavaScript
 To ensure the highest quality of my JavaScript code, I decided to use JSHint, a static code analysis tool that checks for potential errors, inconsistencies, and anti-patterns in my code. I ran JSHint on my JavaScript file and was pleased to see that there were no problems with my code. This meant that my JavaScript was written correctly and adhered to best practices, which would ensure that the website would function as intended. I was confident that my code would provide a seamless user experience and allow users to interact with the website without any issues.
+
+</br>
+</br>
 
 
 # Deployment
