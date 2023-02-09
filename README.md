@@ -58,7 +58,27 @@ Every time I look at the Fortnite logo, I can't help but feel a wave of nostalgi
 ![logo](/assets/images/fortnite.png)
 
 ## Buttons
+When it came time to choose the colors for the buttons on my website, I knew I wanted something that would stand out and be eye-catching. After experimenting with different combinations, I found that the combination of yellow and black was the most appealing and fun. The bright, cheerful yellow adds a touch of playfulness, while the bold black provides a strong contrast that makes the buttons pop. I believe that these colors work well together to create an attractive and user-friendly interface that visitors will enjoy using.
 
+![buttons](/assets/images/buttons.png)
+
+## Hud
+When designing the HUD for my game, I knew that visibility was key. That's why I chose a white background - it provides a clean, bright surface that makes the information easy to read. For the progress bar, I wanted something that would look appealing and stylish. Gold was the perfect choice. Its rich, luxurious color gives the progress bar a touch of glamour and adds a touch of elegance to the overall design. 
+
+![hud](/assets/images/hud.png)
+
+## Questions
+"In the questions section of my application, I wanted to provide immediate feedback to users on their answers. That's why I decided to use green and red to indicate whether the answer was correct or incorrect. When a user submits a correct answer, the background of the question turns green, providing a clear visual cue that they have succeeded. If the answer is incorrect, the background turns red, letting the user know that they need to try again. This simple but effective design choice makes it easy for users to track their progress and improve their understanding of the material.
+
+![questions](/assets/images/question.png)
+
+![correct](/assets/images/correct.png)
+
+![incorrect](/assets/images/incorrect.png)
+
+## End page
+
+## High score page
 
 
 
@@ -143,3 +163,5 @@ Steps to clone this project from GitHub:
 
 </br>
 </br>
+
+# References
