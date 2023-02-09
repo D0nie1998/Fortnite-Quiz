@@ -174,13 +174,14 @@ I deployed the site on GitHub pages. The following steps were used to deploy:
 3. Under the source section, in the drop-down menu select the main branch and click save.
 4. Once the page has refreshed a ribbon will display indicating the successful deployment of the site and link to the live page.
 
+
 ## Local Deployment
 Steps to clone this project from GitHub:
 1. In the project repository, navigate to the code button.
 2. Select download Zip from the clone menu.
 3. Once zip file has been downloaded, unzip the file.
 4. Save the file and run it locally
-
+Live link is available here [https://d0nie1998.github.io/Fortnite-Quiz/]
 </br>
 </br>
 
