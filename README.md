@@ -77,8 +77,14 @@ When designing the HUD for my game, I knew that visibility was key. That's why I
 ![incorrect](/assets/images/incorrect.png)
 
 ## End page
+At the end of each game, players are greeted with a message that says "Thanks for playing!" This is a small but important touch that shows appreciation for their time and effort. Along with the message, players are given the option to save their score and username. This feature allows them to track their progress and compete with friends. The option to play again or return home gives players control over their next move, whether they want to jump right back in for another round or take a break. 
+
+![endgame](/assets/images/endgame.png)
 
 ## High score page
+The high score page of my game is a place for players to see how they stack up against others. It displays each player's score along with their username, making it easy to see who's on top. This page gives players a sense of accomplishment and adds an extra layer of competition to the game. In addition to viewing their scores, players have the option to return home. This simple but important feature provides a convenient way to navigate back to the main menu and continue playing or explore other parts of the game
+
+![highscore](/assets/images/highscore.png)
 
 
 
