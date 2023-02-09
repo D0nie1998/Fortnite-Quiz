@@ -1,7 +1,7 @@
 # Fortnite quiz
 
 
-![responsive picture](/assets/images/Amiresponsive.png)
+![responsive picture](/assets/images/amiresponsive.png)
 <br/>
 <br/>
 
@@ -52,7 +52,13 @@ In addition to the easy-to-use design on desktop, I also made sure that the quiz
 
 ![phonehome](/assets/images/phonehomepage.png)
 
+## Logo
+Every time I look at the Fortnite logo, I can't help but feel a wave of nostalgia wash over me. The iconic design brings back memories of hours spent playing the game with friends and the excitement of each match. Whether I was landing at Tilted Towers or exploring the map, Fortnite always provided a sense of adventure and fun. That's why I love using the logo - it serves as a reminder of those happy times and the joy that the game brought into my life.
+
+![logo](/assets/images/fortnite.png)
+
 ## Buttons
+
 
 
 
